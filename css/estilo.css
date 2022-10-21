@@ -1,7 +1,7 @@
 body,
 html {
     margin: 0;
-    font: 16px "lato", sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: #777;
     height: 100%;
     width: 100%;
@@ -15,12 +15,13 @@ html {
 }
 
 h3 {
-    text-transform: uppercase;
+    font-size: 2.2em;
     color: #111;
     text-align: center;
 }
 
 P {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20px;
 }
 
