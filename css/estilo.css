@@ -24,6 +24,23 @@ P {
     margin-bottom: 20px;
 }
 
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+
 /* Efeito Parallax */
 
 .caixa1,
@@ -32,6 +49,7 @@ P {
 .caixa4,
 .caixa5,
 .caixa6 {
+    position: relative;
     height: 100%;
     opacity: 0.7;
     background-repeat: no-repeat;
