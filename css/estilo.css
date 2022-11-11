@@ -8,6 +8,7 @@ html {
 }
 
 .menu {
+    /* border: 1px solid red; */
     font-family: 'Tangerine', serif;
     font-size: 40px;
     text-shadow: 4px 4px 4px #aaa;
@@ -21,20 +22,36 @@ html {
 }
 
 .menu ul {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    padding: 0 50%;
     list-style: none;
 }
 
+
 .menu ul li {
-    float: left;
-    padding-top: 10px;
-    padding-left: 270px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 50px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+
 
 
 .conteudo {
     color: #777;
     background-color: white;
-    text-align: justify;
     padding: 50px 80px;
 }
 
