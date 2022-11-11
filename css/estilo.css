@@ -27,7 +27,7 @@ html {
     width: 100%;
     backdrop-filter: blur(5px);
     justify-content: space-between;
-    padding: 0 50%;
+    padding: 0 20%;
     list-style: none;
 }
 
@@ -45,6 +45,12 @@ a {
 
 a:visited {
     color: #fff;
+}
+
+li a:hover,
+li:hover {
+    color: #fff;
+    background: linear-gradient(black, transparent);
 }
 
 
