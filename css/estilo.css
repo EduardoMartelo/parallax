@@ -5,6 +5,7 @@ html {
     color: #777;
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 .menu {
@@ -15,7 +16,6 @@ html {
     width: 100%;
     height: 370px;
     position: fixed;
-    /* box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 30%); */
     background: linear-gradient(black, transparent);
     color: #fff;
     z-index: 10;
@@ -24,7 +24,6 @@ html {
 
 .menu ul {
     /* border: 1px solid red; */
-    margin: 0 auto;
     width: 100%;
     backdrop-filter: blur(5px);
     padding: 0 20%;
@@ -48,17 +47,15 @@ a:visited {
     color: #fff;
 }
 
-a:hover,
 li:hover {
     color: #fff;
     background: linear-gradient(black, transparent);
+    border-radius: 15px;
 }
 
 
 
 .conteudo {
-    color: #777;
-    background-color: white;
     padding: 50px 80px;
 }
 
@@ -105,6 +102,7 @@ P {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    z-index: -2;
 }
 
 .caixa1 {
